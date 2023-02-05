@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RitLauncher.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="64" />
+        </Grid.RowDefinitions>
+        <ScrollView>
+            <VerticalStackLayout Padding="8" Spacing="8">
+                <Label SemanticProperties.HeadingLevel="Level1" FontSize="18">Welcome to Rit Launcher</Label>
+                <Label>Pick a version and play!</Label>
+                <Label SemanticProperties.HeadingLevel="Level2" FontSize="16">News</Label>
+                <Label>your mom died</Label>
+            </VerticalStackLayout>
+        </ScrollView>
+        <HorizontalStackLayout Grid.Row="1" HorizontalOptions="End" VerticalOptions="Center" Padding="8">
+            <Picker x:Name="VersionPicker" />
+            <Button>
+                <Button.Text>Launch</Button.Text>
+            </Button>
+        </HorizontalStackLayout>
+    </Grid>
+
+</ContentPage>

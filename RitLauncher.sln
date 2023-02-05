@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RitLauncher", "RitLauncher\RitLauncher.csproj", "{DAE3FED0-E421-44AC-83C3-DEB0AFEA9440}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE3FED0-E421-44AC-83C3-DEB0AFEA9440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE3FED0-E421-44AC-83C3-DEB0AFEA9440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE3FED0-E421-44AC-83C3-DEB0AFEA9440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE3FED0-E421-44AC-83C3-DEB0AFEA9440}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
