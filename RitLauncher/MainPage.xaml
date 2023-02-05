@@ -20,6 +20,7 @@
         <HorizontalStackLayout Grid.Row="1" HorizontalOptions="End" VerticalOptions="Center" Padding="8">
             <Picker x:Name="VersionPicker" />
             <Button>
+                <Button.ImageSource></Button.ImageSource>
                 <Button.Text>Launch</Button.Text>
             </Button>
         </HorizontalStackLayout>
